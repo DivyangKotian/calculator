@@ -48,3 +48,7 @@ function addClasses(button){
     const buttonClass="number flex w-12 h-12 justify-center items-center m-1 font-bold py-2 px-2 border hover:border-transparent rounded text-white border-2 text-2xl";
   buttonClass.split(" ").forEach((cls) => button.classList.add(cls));
 }
+
+const deleteButtonClass= "flex min-w-full h-2/3 pb-2 text-2xl hover:bg-purple-500 border-purple-500";
+const deleteBtn=document.querySelector(".delete");
+deleteButtonClass.split(" ").forEach((cls)=> deleteBtn.classList.add(cls));

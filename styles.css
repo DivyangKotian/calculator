@@ -5,3 +5,11 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+.calc-body{
+  box-shadow: 6px -6px #2E8B57 ;
+}
+
+.number{
+  box-shadow: 6px 3px #2E8B57 ;
+}
