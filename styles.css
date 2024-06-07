@@ -1,4 +1,5 @@
 body {
+  position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -12,4 +13,33 @@ body {
 
 .number{
   box-shadow: 6px 3px #2E8B57 ;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  gap:5px;
+  bottom: 0;
+  gap: 5px;
+  width: 100%;
+  font-size: 20px;
+  text-shadow: 0 0 7px #FFF;
+  background-image: linear-gradient(to top left, blue, green);
+  font-family: 'Bellota Text', cursive;
+  text-align: center;
+  color: #FFF;
+  height: 50px;
+  opacity: 0.75;
+}
+
+.fa-github {
+  color: var(--primary-dark);
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
 }
